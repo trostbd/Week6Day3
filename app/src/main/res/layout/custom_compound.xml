@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSburb"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <ImageView
+        android:id="@+id/imgSgrub"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sgrub"/>
+
+    <ImageView
+        android:id="@+id/imgSkaia"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/skaia" />
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clicks: 0"
+        />
+
+</merge>
